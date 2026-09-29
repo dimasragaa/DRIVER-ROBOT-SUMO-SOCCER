@@ -4791,7 +4791,7 @@
 		)
 		(uuid "0a07fdd4-2d25-4479-b762-e3a93c6db733")
 	)
-	(hierarchical_label "PWM 2"
+	(hierarchical_label "PWM2"
 		(shape bidirectional)
 		(at 248.92 95.25 0)
 		(effects
@@ -4802,7 +4802,7 @@
 		)
 		(uuid "0f6526d2-969c-45e3-8cad-74929fd2231e")
 	)
-	(hierarchical_label "DIR 3"
+	(hierarchical_label "DIR3"
 		(shape bidirectional)
 		(at 248.92 125.73 0)
 		(effects
@@ -4813,7 +4813,7 @@
 		)
 		(uuid "275e226e-09f3-401d-9d2a-fdacaf002a10")
 	)
-	(hierarchical_label "PWM 1"
+	(hierarchical_label "PWM1"
 		(shape bidirectional)
 		(at 248.92 123.19 0)
 		(effects
@@ -4824,7 +4824,7 @@
 		)
 		(uuid "28d4cb8a-cc45-4d57-aa5a-875e68e908d3")
 	)
-	(hierarchical_label "DIR 4"
+	(hierarchical_label "DIR4"
 		(shape bidirectional)
 		(at 248.92 128.27 0)
 		(effects
@@ -7525,7 +7525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
 			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8071,7 +8071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
 			(at 184.15 128.27 0)
 			(hide yes)
 			(show_name no)
