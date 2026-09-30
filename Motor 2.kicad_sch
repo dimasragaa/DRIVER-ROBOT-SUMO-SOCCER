@@ -2465,7 +2465,7 @@
 		)
 		(uuid "a1acf241-836a-42ce-8f11-ffc7d88cf987")
 	)
-	(label "OUT 2"
+	(label "OUT 4"
 		(at 209.55 96.52 180)
 		(effects
 			(font
@@ -2485,7 +2485,7 @@
 		)
 		(uuid "bde56b57-e573-4ec8-8f5b-adc0e4c78c5c")
 	)
-	(label "OUT 2"
+	(label "OUT 4"
 		(at 240.03 88.9 0)
 		(effects
 			(font
@@ -2505,7 +2505,7 @@
 		)
 		(uuid "d62557b5-3698-48b4-a1a7-5b75fd6aa064")
 	)
-	(label "OUT 1"
+	(label "OUT 3"
 		(at 137.16 96.52 180)
 		(effects
 			(font
@@ -2701,7 +2701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +4006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 176.53 80.01 0)
 			(hide yes)
 			(show_name no)
