@@ -12,7 +12,7 @@
 		(comment 1 "RVA ROBOTICS")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
 				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -96,7 +96,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -185,30 +185,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -409,7 +387,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -493,24 +471,6 @@
 						)
 					)
 					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -648,24 +608,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
@@ -714,7 +656,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3814,10 +3756,6 @@
 		(uuid "fcb616f4-58bd-4078-aec3-5c55b849dea6")
 	)
 	(no_connect
-		(at 48.26 113.03)
-		(uuid "15b0fe92-a10f-4e41-994e-e4dae557af07")
-	)
-	(no_connect
 		(at 107.95 104.14)
 		(uuid "2c114d61-e767-4c0f-a5f2-7b10c23b201f")
 	)
@@ -3836,10 +3774,6 @@
 	(no_connect
 		(at 107.95 111.76)
 		(uuid "9e3f80b8-4c7a-4d46-85ee-de6d82bdd6d9")
-	)
-	(no_connect
-		(at 48.26 115.57)
-		(uuid "b2e9451d-d2e3-4e54-adda-c9b00794b7d9")
 	)
 	(bus_entry
 		(at 124.46 109.22)
@@ -5590,7 +5524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 63.5 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -5669,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.54 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -5956,6 +5890,125 @@
 			(project "DRIVER ROBOT"
 				(path "/b1fe2535-19ad-46cf-8d17-623aba53d479/73a0447d-beca-4851-ba2a-3685cd81c33c"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 33.02 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37581809-7353-43f6-a887-69d11a5ab4d9")
+		(property "Reference" "J5"
+			(at 33.02 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 33.02 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Plug_ShenzhenJingTuoJin_918-118A2021Y40002_Vertical"
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 33.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A7"
+			(uuid "a61fc6a1-6853-4639-b728-e0cf61693505")
+		)
+		(pin "B7"
+			(uuid "6681cdee-39e8-4e84-86ee-b9b85e6ae4ec")
+		)
+		(pin "A6"
+			(uuid "ca6b3fd5-1f3b-4e7c-87b8-ccca2a845d3c")
+		)
+		(pin "B1"
+			(uuid "ed9ea81f-d3fa-4c37-9985-7973dcdb9c28")
+		)
+		(pin "A4"
+			(uuid "5f90b0e9-5540-4887-8a78-08a228072c87")
+		)
+		(pin "B5"
+			(uuid "f43b8632-f32a-4430-9f9a-867619583056")
+		)
+		(pin "A9"
+			(uuid "3b5c92d4-cc94-46ba-b7c7-d74b8af0cf7e")
+		)
+		(pin "B6"
+			(uuid "20ef2300-2172-436b-a5eb-4a9b75bb2619")
+		)
+		(pin "SH"
+			(uuid "dca5905d-7fff-4efb-8e04-cde958695ee4")
+		)
+		(pin "A5"
+			(uuid "bc3b3b76-872d-4073-9c6e-ec194da16a96")
+		)
+		(pin "B4"
+			(uuid "fa693c1a-4764-4325-82e5-9dff6b292c55")
+		)
+		(pin "B12"
+			(uuid "428880f8-7763-425f-b520-89ec8f408c80")
+		)
+		(pin "A12"
+			(uuid "075c58bf-30c9-48ee-b4c6-5daa3c707ae7")
+		)
+		(pin "A1"
+			(uuid "62a9670c-fbe5-49a0-8f1e-7c9d26c34421")
+		)
+		(pin "B9"
+			(uuid "845f6c81-5855-4477-9cd2-e24e78f489b8")
+		)
+		(instances
+			(project "DRIVER ROBOT"
+				(path "/b1fe2535-19ad-46cf-8d17-623aba53d479/73a0447d-beca-4851-ba2a-3685cd81c33c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6559,7 +6612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.85 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6863,7 +6916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.61 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -7182,7 +7235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.928 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -7361,7 +7414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.61 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -7443,7 +7496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 98.7552 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.54 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -7786,7 +7839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.72 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7967,7 +8020,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.198 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -8175,7 +8228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8240,131 +8293,6 @@
 			(project "DRIVER ROBOT"
 				(path "/b1fe2535-19ad-46cf-8d17-623aba53d479/73a0447d-beca-4851-ba2a-3685cd81c33c"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 33.02 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fee993d5-8138-4136-bd17-b4556ad062dd")
-		(property "Reference" "J7"
-			(at 33.02 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 33.02 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 36.83 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 36.83 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 33.02 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A12"
-			(uuid "481509fd-1cbf-4750-a99e-62591db642f7")
-		)
-		(pin "A6"
-			(uuid "28f918a5-8f0a-42d6-bd15-8c17f16a4917")
-		)
-		(pin "S1"
-			(uuid "f7795be4-295f-4e81-aaed-c81c6c4d9811")
-		)
-		(pin "A1"
-			(uuid "1059f47e-d0f5-4c96-80bf-54a6b8271de2")
-		)
-		(pin "B1"
-			(uuid "70bcf7a6-baf1-41d7-8946-f9494245a0a5")
-		)
-		(pin "A7"
-			(uuid "c181d224-8a14-42b2-a229-c967926f7071")
-		)
-		(pin "A5"
-			(uuid "c95f19bc-fce4-4ab9-bfa7-9d89ea5796ca")
-		)
-		(pin "B8"
-			(uuid "0ed27702-5072-4f1e-918c-5141c9a30a7f")
-		)
-		(pin "B12"
-			(uuid "37441bce-baf6-46f8-8a90-b16462ed197b")
-		)
-		(pin "B5"
-			(uuid "d0d6eb86-1dff-476c-be56-4c285cf3de2a")
-		)
-		(pin "B7"
-			(uuid "b0a1a03c-3f51-4d2e-a650-df3d16a43cc5")
-		)
-		(pin "A9"
-			(uuid "55023b61-9830-4084-8d64-eb0a4071b560")
-		)
-		(pin "B6"
-			(uuid "1a089425-791c-4b41-acce-c0ba41bba155")
-		)
-		(pin "A8"
-			(uuid "3bec9df5-7e10-4193-84ab-2360ce54ce62")
-		)
-		(pin "A4"
-			(uuid "0861fd2f-774e-457e-a69a-807908e2b172")
-		)
-		(pin "B4"
-			(uuid "5cb49c53-34ae-4be9-8977-45389febb601")
-		)
-		(pin "B9"
-			(uuid "a73e7d8e-8089-4204-8b71-14d57c307106")
-		)
-		(instances
-			(project "DRIVER ROBOT"
-				(path "/b1fe2535-19ad-46cf-8d17-623aba53d479/73a0447d-beca-4851-ba2a-3685cd81c33c"
-					(reference "J7")
 					(unit 1)
 				)
 			)

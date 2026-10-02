@@ -2844,83 +2844,6 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 189.23 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48c5a4a3-9d47-4377-9ded-3b8de2ce359d")
-		(property "Reference" "#PWR055"
-			(at 189.23 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 189.23 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 189.23 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9eb02337-d306-4cb1-b2af-d5079f718df0")
-		)
-		(instances
-			(project "DRIVER ROBOT"
-				(path "/b1fe2535-19ad-46cf-8d17-623aba53d479"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
 		(at 173.99 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -3633,7 +3556,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e498888c-d05a-4d39-b671-757a6ae7bc9d")
 		(property "Reference" "#PWR049"
 			(at 124.46 78.74 0)
@@ -3647,7 +3569,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 69.85 0)
+			(at 124.46 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3696,6 +3618,83 @@
 			(project "DRIVER ROBOT"
 				(path "/b1fe2535-19ad-46cf-8d17-623aba53d479"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 189.23 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f30f47f1-9d05-4519-8b4b-6e328bdcf0fd")
+		(property "Reference" "#PWR055"
+			(at 189.23 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.23 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 189.23 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "866b67fe-d49b-48d3-a122-90e7b8085117")
+		)
+		(instances
+			(project "DRIVER ROBOT"
+				(path "/b1fe2535-19ad-46cf-8d17-623aba53d479"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
